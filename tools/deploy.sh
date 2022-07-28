@@ -130,6 +130,7 @@ main() {
   backup
   flush
   deploy
+  bundle lock --add-platform x86_64-linux
 }
 
 while (($#)); do
